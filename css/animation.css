@@ -409,29 +409,26 @@
 
 }
 
-@keyframes pulse{
+@keyframes badgeGlow{
 
     0%{
 
-        transform:scale(1);
-
-        box-shadow:0 0 0 rgba(255,107,53,.5);
+        box-shadow:
+            0 0 0 0 rgba(72,103,201,.45);
 
     }
 
-    50%{
+    70%{
 
-        transform:scale(1.08);
-
-        box-shadow:0 0 25px rgba(255,107,53,.7);
+        box-shadow:
+            0 0 0 14px rgba(72,103,201,0);
 
     }
 
     100%{
 
-        transform:scale(1);
-
-        box-shadow:0 0 0 rgba(255,107,53,.5);
+        box-shadow:
+            0 0 0 0 rgba(72,103,201,0);
 
     }
 
