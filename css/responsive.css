@@ -1,0 +1,307 @@
+/*==================================================
+                NOTEBOOK
+==================================================*/
+
+@media (max-width:1200px){
+
+    .hero h1{
+        font-size:3.3rem;
+    }
+
+    .hero-content{
+        gap:50px;
+    }
+
+    .hero-image img{
+        width:380px;
+    }
+
+    .cards{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .consultoria-grid{
+        gap:30px;
+    }
+
+}
+
+/*==================================================
+                TABLET
+==================================================*/
+
+@media (max-width:992px){
+
+    section{
+        padding:90px 0;
+    }
+
+    #header .container{
+
+        padding:18px 25px;
+
+    }
+
+    nav ul{
+
+        gap:18px;
+
+    }
+
+    .hero-content{
+
+        grid-template-columns:1fr;
+
+        text-align:center;
+
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+
+    }
+
+    .hero-image{
+
+        order:-1;
+
+    }
+
+    .hero-image img{
+
+        width:340px;
+
+    }
+
+    .hero-numbers{
+
+        justify-content:center;
+
+    }
+
+    .about{
+
+        grid-template-columns:1fr;
+
+        text-align:center;
+
+    }
+
+    .stats{
+
+        margin-top:40px;
+
+    }
+
+    .consultoria-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .timeline{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:70px;
+
+    }
+
+    .timeline::before{
+
+        display:none;
+
+    }
+
+}
+
+/*==================================================
+                CELULAR GRANDE
+==================================================*/
+
+@media (max-width:768px){
+
+    #header{
+
+        top:0;
+
+    }
+
+    #header .container{
+
+        border-radius:0;
+
+    }
+
+    nav{
+
+        display:none;
+
+    }
+
+    .btn-primary{
+
+        padding:15px 26px;
+
+        font-size:.9rem;
+
+    }
+
+    .hero{
+
+        padding-top:130px;
+
+    }
+
+    .hero h1{
+
+        font-size:2.5rem;
+
+    }
+
+    .hero p{
+
+        font-size:1rem;
+
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+    }
+
+    .hero-numbers{
+
+        flex-direction:column;
+
+    }
+
+    .cards{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .section-title h2{
+
+        font-size:2.2rem;
+
+    }
+
+    .about-text h2{
+
+        font-size:2.3rem;
+
+    }
+
+    .stats{
+
+        grid-template-columns:1fr;
+
+    }
+
+    footer .container{
+
+        flex-direction:column;
+
+        gap:30px;
+
+    }
+
+}
+
+/*==================================================
+                CELULAR PEQUENO
+==================================================*/
+
+@media (max-width:480px){
+
+    .hero-image img{
+
+        width:280px;
+
+    }
+
+    .hero h1{
+
+        font-size:2rem;
+
+    }
+
+    .section-title h2{
+
+        font-size:1.9rem;
+
+    }
+
+    .cta h2{
+
+        font-size:2rem;
+
+    }
+
+    .timeline{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .step{
+
+        padding-top:100px;
+
+    }
+
+}
+
+/*==============================
+      TIMELINE MOBILE
+===============================*/
+
+.gym-timeline{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:70px;
+
+}
+
+.gym-bar{
+
+    display:none;
+
+}
+
+/* REMOVE QUALQUER LINHA */
+
+.gym-timeline::before,
+.gym-step::before,
+.gym-step::after{
+
+    display:none !important;
+
+    content:none;
+
+}
+
+.gym-step{
+
+    width:100%;
+
+    max-width:340px;
+
+    text-align:center;
+
+}
+
+.plate{
+
+    margin:0 auto 25px;
+
+}
