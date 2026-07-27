@@ -789,12 +789,12 @@ nav a:hover::after{
 
 .popular-badge{
 
-    position:absolute;
+    position: absolute;
 
     top:25px;
     right:25px;
 
-    background:#FF6B35;
+    background:#4867C9;
 
     color:#fff;
 
