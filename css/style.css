@@ -789,27 +789,29 @@ nav a:hover::after{
 
 .popular-badge{
 
-    position: absolute;
+    position:absolute;
 
     top:25px;
     right:25px;
-
-    background:#4867C9;
-
-    color:#fff;
 
     padding:10px 18px;
 
     border-radius:50px;
 
+    background:#4867C9;
+
+    color:#fff;
+
     font-size:.85rem;
 
     font-weight:600;
 
-    animation:pulse 1.8s infinite;
+    z-index:20;
 
     box-shadow:
-        0 10px 25px rgba(255,107,53,.35);
+        0 0 0 rgba(72,103,201,.5);
+
+    animation:badgeGlow 1s infinite;
 
 }
 
