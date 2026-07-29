@@ -407,27 +407,21 @@
 
 }
 
-@keyframes badgeGlow{
+@keyframes consultoriaPulse{
 
     0%{
-
-        box-shadow:
-            0 0 0 0 rgba(72,103,201,.45);
-
+        transform:scale(1);
+        filter:brightness(100%);
     }
 
-    70%{
-
-        box-shadow:
-            0 0 0 14px rgba(72,103,201,0);
-
+    50%{
+        transform:scale(1.12);
+        filter:brightness(120%);
     }
 
     100%{
-
-        box-shadow:
-            0 0 0 0 rgba(72,103,201,0);
-
+        transform:scale(1);
+        filter:brightness(100%);
     }
 
 }
