@@ -398,11 +398,9 @@
     from{
 
         transform:translateX(-120%);
-
     }
 
     to{
-
         transform:translateX(120%);
 
     }
